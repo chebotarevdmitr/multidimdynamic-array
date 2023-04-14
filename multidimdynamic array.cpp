@@ -11,7 +11,7 @@ int main() {
 	for (int i = 0; i < rows; i++) {
 		table[i] = new int[cols];
 	}
-
+	table[1][2] = 88;
 
 	system("pause>0");
 	return 0;
