@@ -16,6 +16,7 @@ int main() {
 	for (int i = 0; i < rows; i++) {
 		delete[]table[i];
 	}
+	delete[]table;
 
 	system("pause>0");
 	return 0;
