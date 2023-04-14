@@ -7,7 +7,10 @@ int main() {
 	cout << "rows,cols = ";
 	cin >> rows >> cols;
 
-
+	int** table = new int* [rows];
+	for (int i = 0; i < rows; i++) {
+		table[i] = new int[cols];
+	}
 
 
 	system("pause>0");
