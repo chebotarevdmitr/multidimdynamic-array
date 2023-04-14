@@ -17,7 +17,7 @@ int main() {
 		delete[]table[i];
 	}
 	delete[]table;
-
+	table = NULL;
 	system("pause>0");
 	return 0;
 }
