@@ -13,6 +13,10 @@ int main() {
 	}
 	table[1][2] = 88;
 
+	for (int i = 0; i < rows; i++) {
+		delete[]table[i];
+	}
+
 	system("pause>0");
 	return 0;
 }
